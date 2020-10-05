@@ -30,7 +30,7 @@ namespace prog_prov
 
                 if (gissning >= 1 && gissning <= 10)
                 {
-                    if (gissning == rättsvar - +2 || gissning == rättsvar + -1)
+                    if (gissning == rättsvar + 2 || gissning == rättsvar + 1 || gissning == rättsvar - 2 || gissning == rättsvar - 1)
                     { Console.WriteLine("Near Miss!"); }
                     else
                     {
@@ -47,7 +47,7 @@ namespace prog_prov
 
             }
 
-            Console.WriteLine("Du träffade!!!");
+            Console.WriteLine("Hit!");
 
 
 
